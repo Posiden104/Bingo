@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Bingo": {
+      "commandName": "Project",
+      "commandLineArgs": "generateCard -n=34"
+    }
+  }
+}
