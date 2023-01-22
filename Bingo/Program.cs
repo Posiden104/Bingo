@@ -26,19 +26,14 @@ validAnswer = false;
 userCard = lowestBingo = cards[^1];
 lowestBingoIdx = cards.Count;
 
-while (!validAnswer)
-{
-    Console.WriteLine("How many balls would you like to draw? (1 - 75)");
-    answer = Console.ReadLine();
+Console.WriteLine("How many balls would you like to draw? (1 - 75)");
+answer = Console.ReadLine();
 
-    if (answer != null && int.TryParse(answer, out numBalls) && (numBalls < 1 || numBalls > 75))
-    {
-        Console.WriteLine("Invalid number of balls");
-    }
-    else
-        validAnswer = true;
+if (answer != null && int.TryParse(answer, out numBalls) && (numBalls < 1 || numBalls > 75))
+{
+    numBalls = 75;
+    Console.WriteLine("That didn't make sense to me, I'll just draw them all.");
 }
-validAnswer = false;
 
 bd.DrawBalls(numBalls);
 Console.WriteLine("You drew: ");
