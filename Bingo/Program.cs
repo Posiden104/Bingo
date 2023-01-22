@@ -1,17 +1,5 @@
 ﻿using Bingo;
 
-//if (args.Length > 0)
-//{
-//    foreach (var arg in args)
-//    {
-//        Console.WriteLine($"Argument={arg}");
-//    }
-//}
-//else
-//{
-//    Console.WriteLine("No arguments");
-//}
-
 var bd = new BallDrawer();
 var cards = new List<Card>();
 string? answer;

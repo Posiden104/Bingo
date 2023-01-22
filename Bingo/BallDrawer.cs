@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace Bingo
 {
@@ -15,7 +11,9 @@ namespace Bingo
 
         public BallDrawer()
         {
-            Reset();
+            Cage = new(Balls.AllBalls);
+            Drawn = new();
+            rnd = new();
         }
 
         public void Reset()

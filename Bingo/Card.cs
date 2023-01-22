@@ -108,38 +108,6 @@ namespace Bingo
                 s.Append("|\n");
             }
 
-            //foreach (var cell in B)
-            //{
-            //    s.Append($"|{cell.ToString()}");
-            //}
-            //s.Append("|\n");
-            //foreach (var cell in I)
-            //{
-            //    s.Append($"|{cell.ToString()}");
-            //}
-            //s.Append("|\n");
-            //foreach (var cell in N)
-            //{
-            //    s.Append($"|{cell.ToString()}");
-            //}
-            //s.Append("|\n");
-            //foreach (var cell in G)
-            //{
-            //    s.Append($"|{cell.ToString()}");
-            //}
-            //s.Append("|\n");
-            //foreach (var cell in O)
-            //{
-            //    s.Append($"|{cell.ToString()}");
-            //}
-            //s.Append("|\n");
-
-            //s.Append($"| {B[0].num.ToString("D2")} | {B[1].num.ToString("D2")} | {B[2].num.ToString("D2")} | {B[3].num.ToString("D2")} | {B[4].num.ToString("D2")} |\n");
-            //s.Append($"| {I[0].num.ToString("D2")} | {I[1].num.ToString("D2")} | {I[2].num.ToString("D2")} | {I[3].num.ToString("D2")} | {I[4].num.ToString("D2")} |\n");
-            //s.Append($"| {N[0].num.ToString("D2")} | {N[1].num.ToString("D2")} |Free| {N[3].num.ToString("D2")} | {N[4].num.ToString("D2")} |\n");
-            //s.Append($"| {G[0].num.ToString("D2")} | {G[1].num.ToString("D2")} | {G[2].num.ToString("D2")} | {G[3].num.ToString("D2")} | {G[4].num.ToString("D2")} |\n");
-            //s.Append($"| {O[0].num.ToString("D2")} | {O[1].num.ToString("D2")} | {O[2].num.ToString("D2")} | {O[3].num.ToString("D2")} | {O[4].num.ToString("D2")} |\n");
-            
             return s.ToString();
         }
     }
